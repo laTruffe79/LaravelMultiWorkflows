@@ -1,0 +1,26 @@
+{
+    "name": "ysn/laravel-multi-workflows",
+    "description": "This package allows you to create multiple workflows and pipelines inside",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ysn",
+            "email": "y.siclon@gmail.com"
+        }
+    ],
+    "minimum-stability":"dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ysn\\LaravelMutiWorkflows\\":"src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Ysn\\LaravelMultiWorkflow\\MultiWorkflowsServiceProvider"
+            ]
+        }
+    }
+}
