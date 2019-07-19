@@ -5,10 +5,18 @@ Every workflows can have multiple Pipelines > Steps > Transitions
 
 #Installation
 
+first install package with composer
 ```bash
 composer install ysn/LaravelMultiWorkflows
 ```
-
+next publish vendors to get migration
+```bash
+php artisan vendor:publish
+```
+finally execute the migration
+```bash
+php artisan migrate
+```
 
 #Usage
 
